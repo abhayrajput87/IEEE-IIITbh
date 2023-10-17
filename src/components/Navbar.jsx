@@ -1,4 +1,6 @@
 import iiit from '../assets/Navbar/iiit.jpg'
+import aspcc from '../assets/Navbar/aspcc.jpg'
+
 import {  Link } from "react-router-dom";
 
 
@@ -13,7 +15,7 @@ function Navbar() {
   
     return (
     <>
-    <div className=' flex justify-between text-black mx-auto md:px-4 px-2 items-center max-w-[1240px] h-24 ' >
+    <div className=' flex justify-between absolute top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ' >
     <img className='w-20 h-fit object-cover' src={iiit} alt="" />
         <ul className='hidden md:flex' >
         <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/' >Home</Link></li>
@@ -24,6 +26,7 @@ function Navbar() {
             <li className='py-4 px-6 hover:border-b-[2px] border-black '>Publications</li>
           
         </ul>
+        <img className='w-20 h-fit object-cover' src={aspcc} alt="" />    
        
         <div className='p-4 block md:hidden z-50 ' onClick={handleNav} >
         {!nav?<AiOutlineMenu className='text-black' size={20} />:<AiOutlineClose className='text-black' size={20} />}
