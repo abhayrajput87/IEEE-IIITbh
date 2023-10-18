@@ -1,10 +1,10 @@
 import React from 'react';
-import heroPic from '../assets/About/aboutus.png'
+import heroPic from '../assets/bgImage.jpeg'
 
-function Hero({ dates }) {
-  const impDate = dates.map((date, index) => {
-    return <li className='flex ml-4 mt-1' key={index}>{date.heading}: <p className='mx-2 text-xl ' >{date.content}</p> </li>;
-  });
+function Hero() {
+  // const impDate = dates.map((date, index) => {
+  //   return <li className='flex ml-4 mt-1' key={index}>{date.heading}: <p className='mx-2 text-xl ' >{date.content}</p> </li>;
+  // });
 
   return (
     <>
@@ -18,7 +18,7 @@ function Hero({ dates }) {
       />
 
       {/* Text Overlay */}
-      <div className="absolute inset-0 flex flex-col text-center items-center md:mt-16 justify-center bg-opacity-75 text-white font-fontawesome">
+      <div className="absolute inset-0 flex flex-col text-center items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
       <h1 className='md:text-8xl text-4xl mb-4 mt-4 font-bold ' >
             IEEE ASPCC 2024
           </h1>
@@ -27,31 +27,13 @@ function Hero({ dates }) {
           </p>
             
           <p className='text-xl mb-2' >
-          (6th to 8th June 2023)
+          (6th to 8th June 2024)
           </p>
           <p className='text-xl mb-2' >
           IIIT Bhubaneswar, India
           </p>
       </div>
-    </div>
-
-     
-          {/* <div className='bg-green-900 p-4 flex flex-col text-center justify-center py-8 lg:w-2/3'>
-          <h1 className='text-6xl mb-4 mt-4' >
-            IEEE ASPCC 2024
-          </h1>
-          <p className='text-3xl text-yellow-400 mb-4' >
-          First international conference on advances in signal processing ,power,communication and computing
-          </p>
-            
-          <p className='text-xl mb-4' >
-          (6th to 8th June 2023)
-          </p>
-          <p className='text-xl mb-4' >
-          IIIT Bhubaneswar, India
-          </p>
-          </div> */}
-      
+    </div>      
     </>
   );
 }

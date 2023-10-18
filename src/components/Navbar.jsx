@@ -16,17 +16,18 @@ function Navbar() {
     return (
     <>
     <div className=' flex justify-between absolute top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ' >
-    <img className='w-20 h-fit object-cover' src={iiit} alt="" />
+    <img className='w-20 h-fit object-cover' src={aspcc} alt="" />
         <ul className='hidden md:flex' >
         <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/' >Home</Link></li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black  '> <Link to='aboutus' >AboutUs</Link></li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Membership</li>
+        <li className='py-4 px-6 hover:border-b-[2px] border-black '>Committees</li>
 
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Conferences</li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Publications</li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Papers</li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Program</li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Attending Conference</li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Contact</li>
           
         </ul>
-        <img className='w-20 h-fit object-cover' src={aspcc} alt="" />    
+        <img className='w-20 h-fit object-cover' src={iiit} alt="" />    
        
         <div className='p-4 block md:hidden z-50 ' onClick={handleNav} >
         {!nav?<AiOutlineMenu className='text-black' size={20} />:<AiOutlineClose className='text-black' size={20} />}
@@ -36,10 +37,12 @@ function Navbar() {
       
             <ul className='p-4' >
             <li className='p-4 border-b border-b-gray-600'> <Link to='/' >Home</Link></li>
-            <li className='p-4 border-b border-b-gray-600'> <Link to='aboutus' >AboutUs</Link></li>
-            <li className='p-4 border-b border-b-gray-600'>Membership</li>
-            <li className='p-4 border-b border-b-gray-600'>Conferences</li>
-            <li className='p-4 '>Publications</li>
+            <li className='p-4 border-b border-b-gray-600'>Committees</li>
+            <li className='p-4 border-b border-b-gray-600'>Papers</li>
+            <li className='p-4 border-b border-b-gray-600'>Program</li>
+            <li className='p-4 border-b border-b-gray-600'>Attending Conference</li>
+           
+            <li className='p-4 '>Contact</li>
 
        
                 

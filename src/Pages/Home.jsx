@@ -2,7 +2,7 @@ import HeroPage from '../Pages/HeroPage';
 import Aim from '../components/Aim';
 import Attractions from '../components/Attractions';
 import Contact from '../components/Contact';
-import LogoSection from '../components/LogoSection';
+// import LogoSection from '../components/LogoSection';
 //import Hero from './components/Hero';
 import Navbar from '../components/Navbar';
 import Overview from '../components/Overview';
@@ -16,7 +16,7 @@ function Home() {
   {/* <Top/> */}
   <Navbar/>
   <HeroPage/>
-  <LogoSection/>
+  {/* <LogoSection/> */}
   <Overview/>
   <Aim/>
   <Attractions/>
