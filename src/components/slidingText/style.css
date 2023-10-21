@@ -1,0 +1,29 @@
+
+
+.text-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    background: green;
+    overflow: hidden;
+}
+
+.date{
+    font-size: 24px;
+    color: white;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: #fff;
+    text-stroke-color: #fff;
+    white-space: nowrap;
+    padding: 0 6rem;
+    letter-spacing: 1px;
+    animation: move-rtl 12s linear infinite;
+}
+
+@keyframes move-rtl {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-200%);
+    }
+}

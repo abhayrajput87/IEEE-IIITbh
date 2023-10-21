@@ -7,6 +7,7 @@ import Contact from '../components/Contact';
 import Navbar from '../components/Navbar';
 import Overview from '../components/Overview';
 import Bottom from '../components/Bottom';
+import ImpDates from '../components/slidingText/ImpDates';
 // import Top from './components/Top';
 
 function Home() {
@@ -18,6 +19,7 @@ function Home() {
   <HeroPage/>
   {/* <LogoSection/> */}
   <Overview/>
+  <ImpDates/>
   <Aim/>
   <Attractions/>
   <Contact/>
