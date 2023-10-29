@@ -1,10 +1,11 @@
 
 import './App.css';
 import React, { useEffect, useState } from "react";
-import AboutPage from './Pages/AboutPage';
 import Home from './Pages/Home';
 import { Routes,Route,Navigate } from 'react-router-dom';
 import { ThreeDots } from 'react-loader-spinner';
+import UpdatePage from './Pages/UpdatePage';
+
 function App() {
   const [loading, setLoading] = useState(false);
 
@@ -32,11 +33,20 @@ wrapperClassName=""
 visible={true}
  />
   ) :(
+    <>
+     {/* <Navbar/> */}
     <Routes>
+     
       <Route path='/' element={ <Home/> } />
-      <Route path='/aboutus' element={ <AboutPage/> } />
+      <Route path='/committees' element={ <UpdatePage name={"committees"} />   } />
+      <Route path='/papers' element={<UpdatePage/>   } />
+      <Route path='/program' element={<UpdatePage/>   } />
+      <Route path='/conferences' element={<UpdatePage/>  } />
+      <Route path='/contact' element={<UpdatePage/>   } />
+     
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>
+    </>
   )}
   </div>
   );

@@ -1,5 +1,5 @@
 import React from 'react'
-import ieee from '../assets/Navbar/iiit.jpg'
+import ieee from '../../assets/Navbar/iiit.jpg'
 
 function Bottom() {
   return (

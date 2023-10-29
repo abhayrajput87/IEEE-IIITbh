@@ -19,12 +19,12 @@ function Navbar() {
     <img className='w-20 h-fit object-cover' src={aspcc} alt="" />
         <ul className='hidden md:flex' >
         <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/' >Home</Link></li>
-        <li className='py-4 px-6 hover:border-b-[2px] border-black '>Committees</li>
+        <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/committees' >Committees</Link> </li>
 
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Papers</li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Program</li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Attending Conference</li>
-            <li className='py-4 px-6 hover:border-b-[2px] border-black '>Contact</li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/papers' >Papers</Link> </li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/program' >Program</Link> </li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/conferences' >Attending Conference</Link> </li>
+            <li className='py-4 px-6 hover:border-b-[2px] border-black '> <Link to='/contact' >Contact</Link> </li>
           
         </ul>
         <img className='w-20 h-fit object-cover' src={iiit} alt="" />    

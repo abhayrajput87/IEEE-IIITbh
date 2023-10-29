@@ -1,5 +1,5 @@
 import React from 'react';
-import heroPic from '../assets/bgImage.jpeg'
+import heroPic from '../../assets/bgImage.jpeg'
 
 function Hero() {
   // const impDate = dates.map((date, index) => {
