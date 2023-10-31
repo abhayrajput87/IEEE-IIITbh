@@ -17,7 +17,7 @@ function Contact() {
             <div className='bg-[#036F78] text-white my-4 py-8 p-4 md:w-1/2' >
                 <h1 className='text-white font-bold text-2xl ' >Sponsors</h1>
                 <p className='mx-4' >
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias temporibus ipsa quaerat laboriosam earum reiciendis magnam tenetur asperiores aspernatur consectetur!
+                    To be updated soon!
                 </p>
             </div>
             

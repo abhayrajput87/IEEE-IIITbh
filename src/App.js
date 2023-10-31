@@ -38,11 +38,11 @@ visible={true}
     <Routes>
      
       <Route path='/' element={ <Home/> } />
-      <Route path='/committees' element={ <UpdatePage name={"committees"} />   } />
-      <Route path='/papers' element={<UpdatePage/>   } />
-      <Route path='/program' element={<UpdatePage/>   } />
-      <Route path='/conferences' element={<UpdatePage/>  } />
-      <Route path='/contact' element={<UpdatePage/>   } />
+      <Route path='/committees' element={ <UpdatePage name={"Committees"} />   } />
+      <Route path='/papers' element={<UpdatePage name={"Papers"} />   } />
+      <Route path='/program' element={<UpdatePage name={"Program"} />   } />
+      <Route path='/conferences' element={<UpdatePage name={"Conferences"} />  } />
+      <Route path='/contact' element={<UpdatePage name={"Contact"} />   } />
      
       <Route path="*" element={<Navigate to="/" />} />
     </Routes>

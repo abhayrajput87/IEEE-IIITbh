@@ -12,8 +12,7 @@ function Aim() {
             </div>
         </div>
         <div className=' md:w-1/2 text-black text-left md:mx-4 p-4' >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi commodi ab mollitia necessitatibus quibusdam possimus reprehenderit porro quam, laboriosam nesciunt iste, molestias eligendi ipsam asperiores quidem, natus harum culpa qui quia explicabo debitis nobis? Inventore sed dolorem maxime quaerat ipsam reprehenderit, est dolorum possimus expedita. Corrupti, commodi. Adipisci, blanditiis? Vitae molestias dicta esse id illo natus ducimus sed dolorum quae!
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium consequuntur iusto pariatur, aliquam quibusdam voluptates nemo nulla accusamus? Error quidem est laboriosam, sint harum fugiat tenetur cum quae libero sunt illum nihil iusto incidunt quas amet necessitatibus ullam dolorum maxime!
+          Content will be added soon
         </div>
         </div>
      

@@ -1,11 +1,11 @@
 import HeroPage from '../Pages/HeroPage';
 import Aim from '../components/Home/Aim';
-import Attractions from '../components/Home/Attractions';
+// import Attractions from '../components/Home/Attractions';
 import Contact from '../components/Home/Contact';
 // import LogoSection from '../components/LogoSection';
 //import Hero from './components/Hero';
 import Navbar from '../components/Navbar';
-import Overview from '../components/Home/Overview';
+//import Overview from '../components/Home/Overview';
 import Bottom from '../components/Home/Bottom';
 import ImpDates from '../components/slidingText/ImpDates';
 import Aboutus from '../components/Home/Aboutus'
@@ -20,10 +20,10 @@ function Home() {
   <HeroPage/>
   {/* <LogoSection/> */}
   <Aboutus/>
-  <Overview/>
+  {/* <Overview/> */}
   <ImpDates/>
   <Aim/>
-  <Attractions/>
+  {/* <Attractions/> */}
   <Contact/>
   <Bottom/>
     </div>
