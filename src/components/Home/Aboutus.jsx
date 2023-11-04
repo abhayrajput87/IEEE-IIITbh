@@ -13,9 +13,8 @@ The Governance structure of the Institute is modelled after those of the IITs. T
 
 The Institute has its focus on quality and rigorous education, quality resource, academic infrastructure, technology and innovation. These initiatives have helped IIIT-Bhubaneswar achieve pre-eminence in India and beyond. 
 <div className='font-semibold mt-4' >
-ASPCC is a bi-annual research-oriented conference jointly conducted by the Department of Electronics & Telecommunication Engineering and Department of Electrical Engineering, IIIT Bhubaneswar.  The conference shall be conducted in collabortion with IEEE Bhubaneswar Subsection and IEEE Communications and Computer Joint Societies chapter, Chandipur. 
+ASPCC is a biennial research-oriented conference jointly conducted by the Department of Electronics & Telecommunication Engineering and Department of Electrical Engineering, IIIT Bhubaneswar.  The conference shall be conducted in collabortion with IEEE Bhubaneswar Subsection and IEEE Communications and Computer Joint Societies chapter, Chandipur. 
 
-This conference is sponsored by the IEEE Dielectrics and Electrical Insulation Society. Additional conference information can be found here.  
 </div>
 
 </div>
