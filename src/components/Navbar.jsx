@@ -1,5 +1,5 @@
 import iiit from '../assets/Navbar/iiit.jpg'
-import aspcc from '../assets/Navbar/aspcc.png'
+import aspcc from '../assets/Navbar/aspcc.jpg'
 
 import {  Link } from "react-router-dom";
 
