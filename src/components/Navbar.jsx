@@ -1,6 +1,5 @@
 import iiit from "../assets/Navbar/iiit.jpg";
 import aspcc from "../assets/Navbar/aspcc.jpg";
-
 import { Link } from "react-router-dom";
 
 import React, { useState } from "react";
