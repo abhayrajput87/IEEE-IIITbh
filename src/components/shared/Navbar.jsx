@@ -1,5 +1,5 @@
-import iiit from "../assets/Navbar/iiit.jpg";
-import aspcc from "../assets/Navbar/aspcc.jpg";
+import iiit from "../../assets/Navbar/iiit.jpg";
+import aspcc from "../../assets/Navbar/aspcc.jpg";
 import { Link } from "react-router-dom";
 
 import React, { useState } from "react";
@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <>
-      <div className=" flex justify-between absolute top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ">
+      <div className=" flex justify-between fixed top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ">
         <img className="w-20 h-fit object-cover" src={aspcc} alt="" />
         <ul className="hidden md:flex">
           <li className="py-4 px-6 hover:border-b-[2px] border-black ">
@@ -51,6 +51,7 @@ function Navbar() {
             <AiOutlineClose className="text-black" size={20} />
           )}
         </div>
+        {/*MOBILE NAVBAR */}
         <div
           className={
             nav
@@ -67,14 +68,22 @@ function Navbar() {
               {" "}
               <Link to="/">Home</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-600">Committees</li>
-            <li className="p-4 border-b border-b-gray-600">Papers</li>
-            <li className="p-4 border-b border-b-gray-600">Program</li>
             <li className="p-4 border-b border-b-gray-600">
-              Attending Conference
+              <Link to="/committees">Committees</Link>
             </li>
-
-            <li className="p-4 ">Contact</li>
+            <li className="p-4 border-b border-b-gray-600">
+              <Link to="/papers">Papers</Link>
+            </li>
+            <li className="p-4 border-b border-b-gray-600">
+              {" "}
+              <Link to="/program">Program</Link>
+            </li>
+            <li className="p-4 border-b border-b-gray-600">
+              <Link to="/conferences">Attending Conference</Link>
+            </li>
+            <li className="p-4 ">
+              <Link to="/contact">Contact</Link>
+            </li>
           </ul>
         </div>
       </div>

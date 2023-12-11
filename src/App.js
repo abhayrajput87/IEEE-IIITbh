@@ -1,9 +1,11 @@
 import "./App.css";
 import React, { useEffect, useState } from "react";
 import Home from "./Pages/Home";
-import { Routes, Route, Navigate } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import { ThreeDots } from "react-loader-spinner";
 import UpdatePage from "./Pages/UpdatePage";
+import Error404 from "./components/shared/Error404";
+import CommitteesPage from "./Pages/CommitteesPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,10 +39,7 @@ function App() {
           {/* <Navbar/> */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route
-              path="/committees"
-              element={<UpdatePage name={"Committees"} />}
-            />
+            <Route path="/committees" element={<CommitteesPage />} />
             <Route path="/papers" element={<UpdatePage name={"Papers"} />} />
             <Route path="/program" element={<UpdatePage name={"Program"} />} />
             <Route
@@ -48,8 +47,8 @@ function App() {
               element={<UpdatePage name={"Conferences"} />}
             />
             <Route path="/contact" element={<UpdatePage name={"Contact"} />} />
-
-            <Route path="*" element={<Navigate to="/" />} />
+            {/* <Route path="*" element={<Navigate to="/" />} /> */}
+            <Route path="*" element={<Error404 />} />
           </Routes>
         </>
       )}

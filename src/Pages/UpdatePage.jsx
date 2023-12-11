@@ -1,6 +1,6 @@
 import React from "react";
-import Update from "../components/To_be_updated_soon/Update";
-import Navbar from "../components/Navbar";
+import Update from "../components/shared/ToBeUpdated";
+import Navbar from "../components/shared/Navbar";
 function UpdatePage({ name }) {
   return (
     <div>
