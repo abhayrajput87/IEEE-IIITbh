@@ -13,7 +13,7 @@ function Navbar() {
 
   return (
     <>
-      <div className=" flex justify-between fixed top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ">
+      <div className=" shadow-md flex justify-between fixed top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ">
         <img className="w-20 h-fit object-cover" src={aspcc} alt="" />
         <ul className="hidden md:flex">
           <li className="py-4 px-6 hover:border-b-[2px] border-black ">
