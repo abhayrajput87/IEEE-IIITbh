@@ -30,7 +30,7 @@ function Hero() {
 
           <p className="text-xl mb-1">IIIT Bhubaneswar, India</p>
           <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
-            (6th to 8th June 2024)
+            (19th to 21th December 2023)
           </p>
         </div>
       </div>
