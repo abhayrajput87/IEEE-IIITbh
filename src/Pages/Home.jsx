@@ -5,12 +5,14 @@ import Navbar from "../components/shared/Navbar";
 import Bottom from "../components/shared/Bottom";
 import ImpDates from "../components/slidingText/ImpDates";
 import Aboutus from "../components/Home/Aboutus";
+import Important from "../components/Home/Important";
 
 function Home() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
+      <Important />
       <Aboutus />
       <ImpDates />
       <Aim />

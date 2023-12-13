@@ -1,5 +1,5 @@
 import React from "react";
-import heroPic from "../../assets/bgImage.jpeg";
+import heroPic from "../../assets/bgImg.jpeg";
 
 function Hero() {
   return (
@@ -21,16 +21,20 @@ function Hero() {
             1st International Conference on Advances in Signal Processing,
             Power, <br /> Communication and Computing
           </p>
-          <p className="text-3xl">Organised by</p>
-          <p className="text-3xl">
+          <p className="text-2xl">Organised by</p>
+          <p className="text-2xl">
             Department of Electronics & Telecommunication Engineering{" "}
           </p>
-          <p className="text-3xl">And</p>
-          <p className="text-3xl">Department of Electrical Engineering</p>
+          <p className="text-2xl">And</p>
+          <p className="text-2xl">Department of Electrical Engineering</p>
+          <p className="text-xl">
+            {" "}
+            in collaboration with IEEE student branch, IIIT Bhubaneswar
+          </p>
 
           <p className="text-xl mb-1">IIIT Bhubaneswar, India</p>
           <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
-            (19th to 21st December 2024)
+            (Paper submission starts: 20th December 2023)
           </p>
         </div>
       </div>
