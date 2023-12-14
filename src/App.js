@@ -7,6 +7,7 @@ import UpdatePage from "./Pages/UpdatePage";
 import Error404 from "./components/shared/Error404";
 import CommitteesPage from "./Pages/CommitteesPage";
 import CallForPapersPage from "./Pages/PapersPage/CallForPapersPage";
+import RegistrationPage from "./Pages/PapersPage/RegistrationPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -40,7 +41,7 @@ function App() {
           {/* <Navbar/> */}
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/committees" element={<CommitteesPage />} />
+            <Route path="/organisingcommittee" element={<CommitteesPage />} />
             <Route path="/papers" element={<UpdatePage name={"Papers"} />} />
             <Route path="/program" element={<UpdatePage name={"Program"} />} />
             <Route
@@ -49,11 +50,17 @@ function App() {
             />
             <Route path="/contact" element={<UpdatePage name={"Contact"} />} />
             <Route path="/callforpapers" element={<CallForPapersPage />} />
-            <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} />
+            {/* <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} /> */}
             <Route
-              path="/registration"
-              element={<UpdatePage name={"Registration"} />}
+              path="/technicalprogramcommittee"
+              element={<UpdatePage name={"Technical program committee"} />}
             />
+            <Route
+              path="/internationaladvisorycommittee"
+              element={<UpdatePage name={"International advisory committee"} />}
+            />
+
+            <Route path="/registration" element={<RegistrationPage />} />
             {/* <Route path="*" element={<Navigate to="/" />} /> */}
             <Route path="*" element={<Error404 />} />
           </Routes>

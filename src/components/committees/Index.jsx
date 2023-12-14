@@ -24,7 +24,7 @@ const Committees = ({ data }) => {
     <div>
       <div className="relative overflow-x-auto w-[80%] md:w-[70%] mx-auto mt-16 mb-16 text-black shadow-md sm:rounded-lg">
         <h1 className="font-bold text-4xl text-green-500 underline underline-offset-2">
-          Committee
+          Organising Committee
         </h1>
         <table className=" border border-black mt-4  text-left rtl:text-right text-gray-900 ">
           <tbody>{renderedData}</tbody>

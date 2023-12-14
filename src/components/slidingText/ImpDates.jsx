@@ -1,12 +1,15 @@
 import React from "react";
 import "./style.css";
 
-function ImpDates() {
+function ImpDates({ children }) {
   return (
-    <div className="text-wrapper">
-      <h1 className="date">Important Dates 19th to 21st December 2024</h1>
-      <h1 className="date">Important Dates 19th to 21st December 2024</h1>
-      <h1 className="date">Important Dates 19th to 21st December 2024</h1>
+    <div className="text-wrapper mt-32">
+      <h1 className="date">{children}</h1>
+      <h1 className="date">{children}</h1>
+      <h1 className="date">{children}</h1>
+      <h1 className="date">{children}</h1>
+      <h1 className="date">{children}</h1>
+      <h1 className="date">{children}</h1>
     </div>
   );
 }

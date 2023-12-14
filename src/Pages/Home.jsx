@@ -5,16 +5,14 @@ import Navbar from "../components/shared/Navbar";
 import Bottom from "../components/shared/Bottom";
 import ImpDates from "../components/slidingText/ImpDates";
 import Aboutus from "../components/Home/Aboutus";
-import Important from "../components/Home/Important";
 
 function Home() {
   return (
     <div className="App">
       <Navbar />
       <Hero />
-      <Important />
+      <ImpDates>Important Dates 19th to 21st December 2024</ImpDates>
       <Aboutus />
-      <ImpDates />
       <Aim />
       <Contact />
       <Bottom />

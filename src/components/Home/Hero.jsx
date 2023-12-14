@@ -34,7 +34,8 @@ function Hero() {
 
           <p className="text-xl mb-1">IIIT Bhubaneswar, India</p>
           <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
-            (Paper submission starts: 20th December 2023)
+            Date of conference: 19<sup class="superscript">th</sup> to 21
+            <sup class="superscript">st</sup> December 2024
           </p>
         </div>
       </div>

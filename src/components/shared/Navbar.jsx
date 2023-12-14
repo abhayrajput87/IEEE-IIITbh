@@ -9,6 +9,7 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 function Navbar() {
   const [nav, setNav] = useState(false);
   let [dropdown, setDropdown] = useState(false);
+  let [drop, setDrop] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -24,9 +25,46 @@ function Navbar() {
             {" "}
             <Link to="/">Home</Link>
           </li>
-          <li className="py-4 px-6 hover:border-b-[2px] border-black ">
-            {" "}
-            <Link to="/committees">Committees</Link>{" "}
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+            <button
+              className=" duration-300 pb-3 hover:scale-110"
+              onMouseEnter={() => setDrop(true)}
+            >
+              Committees &#709;
+            </button>
+            <div
+              className={`w-60 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
+                drop ? "top-15" : "top-[-200px]"
+              }`}
+              onMouseLeave={() => setDrop(false)}
+            >
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/organisingcommittee"
+                    className="flex hover:scale-105 duration-300 "
+                  >
+                    Organising Committee
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/technicalprogramcommittee"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    Technical Program Committee
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/internationaladvisorycommittee"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    International Advisory Committee
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
 
           <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
@@ -34,7 +72,7 @@ function Navbar() {
               className=" duration-300 pb-3 hover:scale-110"
               onMouseEnter={() => setDropdown(true)}
             >
-              Pages &#709;
+              Papers &#709;
             </button>
             <div
               className={`w-40 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
@@ -49,14 +87,6 @@ function Navbar() {
                     className="flex hover:scale-105 duration-300 "
                   >
                     Call for papers
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/tracks"
-                    className="flex hover:scale-105 duration-300"
-                  >
-                    Tracks
                   </a>
                 </li>
                 <li>
