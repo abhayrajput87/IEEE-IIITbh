@@ -1,5 +1,6 @@
 import iiit from "../../assets/Navbar/iiit.jpg";
 import aspcc from "../../assets/Navbar/aspcc.jpg";
+import ieee from "../../assets/Navbar/ieee.jpg";
 import { Link } from "react-router-dom";
 
 import React, { useState } from "react";
@@ -7,6 +8,8 @@ import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
   const [nav, setNav] = useState(false);
+  let [dropdown, setDropdown] = useState(false);
+
   const handleNav = () => {
     setNav(!nav);
   };
@@ -15,6 +18,7 @@ function Navbar() {
     <>
       <div className=" shadow-md flex justify-between fixed top-0 left-0 z-40 bg-white w-full text-black mx-auto md:px-4 px-2 items-center min-w-full py-2 ">
         <img className="w-20 h-fit object-cover" src={aspcc} alt="" />
+        <img className="w-40 md:-ml-16 h-fit object-cover" src={ieee} alt="" />
         <ul className="hidden md:flex">
           <li className="py-4 px-6 hover:border-b-[2px] border-black ">
             {" "}
@@ -25,9 +29,46 @@ function Navbar() {
             <Link to="/committees">Committees</Link>{" "}
           </li>
 
-          <li className="py-4 px-6 hover:border-b-[2px] border-black ">
-            {" "}
-            <Link to="/papers">Papers</Link>{" "}
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+            <button
+              className=" duration-300 pb-3 hover:scale-110"
+              onMouseEnter={() => setDropdown(true)}
+            >
+              Pages &#709;
+            </button>
+            <div
+              className={`w-40 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
+                dropdown ? "top-15" : "top-[-200px]"
+              }`}
+              onMouseLeave={() => setDropdown(false)}
+            >
+              <ul className="space-y-2">
+                <li>
+                  <a
+                    href="/callforpapers"
+                    className="flex hover:scale-105 duration-300 "
+                  >
+                    Call for papers
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/tracks"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    Tracks
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="/registration"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    Registration
+                  </a>
+                </li>
+              </ul>
+            </div>
           </li>
           <li className="py-4 px-6 hover:border-b-[2px] border-black ">
             {" "}

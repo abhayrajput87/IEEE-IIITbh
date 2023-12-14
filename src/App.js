@@ -6,6 +6,7 @@ import { ThreeDots } from "react-loader-spinner";
 import UpdatePage from "./Pages/UpdatePage";
 import Error404 from "./components/shared/Error404";
 import CommitteesPage from "./Pages/CommitteesPage";
+import CallForPapersPage from "./Pages/PapersPage/CallForPapersPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -47,6 +48,12 @@ function App() {
               element={<UpdatePage name={"Conferences"} />}
             />
             <Route path="/contact" element={<UpdatePage name={"Contact"} />} />
+            <Route path="/callforpapers" element={<CallForPapersPage />} />
+            <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} />
+            <Route
+              path="/registration"
+              element={<UpdatePage name={"Registration"} />}
+            />
             {/* <Route path="*" element={<Navigate to="/" />} /> */}
             <Route path="*" element={<Error404 />} />
           </Routes>
