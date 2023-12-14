@@ -40,28 +40,28 @@ function Navbar() {
             >
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="/organisingcommittee"
+                  <Link
+                    to="/organisingcommittee"
                     className="flex hover:scale-105 duration-300 "
                   >
                     Organising Committee
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/technicalprogramcommittee"
+                  <Link
+                    to="/technicalprogramcommittee"
                     className="flex hover:scale-105 duration-300"
                   >
                     Technical Program Committee
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/internationaladvisorycommittee"
+                  <Link
+                    to="/internationaladvisorycommittee"
                     className="flex hover:scale-105 duration-300"
                   >
                     International Advisory Committee
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -82,20 +82,20 @@ function Navbar() {
             >
               <ul className="space-y-2">
                 <li>
-                  <a
-                    href="/callforpapers"
+                  <Link
+                    to="/callforpapers"
                     className="flex hover:scale-105 duration-300 "
                   >
                     Call for papers
-                  </a>
+                  </Link>
                 </li>
                 <li>
-                  <a
-                    href="/registration"
+                  <Link
+                    to="/registration"
                     className="flex hover:scale-105 duration-300"
                   >
                     Registration
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
