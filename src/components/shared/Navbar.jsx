@@ -10,6 +10,7 @@ function Navbar() {
   const [nav, setNav] = useState(false);
   let [dropdown, setDropdown] = useState(false);
   let [drop, setDrop] = useState(false);
+  let [dropConf, setDropConf] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -25,6 +26,7 @@ function Navbar() {
             {" "}
             <Link to="/">Home</Link>
           </li>
+
           <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
             <button
               className=" duration-300 pb-3 hover:scale-110"
@@ -104,10 +106,33 @@ function Navbar() {
             {" "}
             <Link to="/program">Program</Link>{" "}
           </li>
-          <li className="py-4 px-6 hover:border-b-[2px] border-black ">
-            {" "}
-            <Link to="/conferences">Attending Conference</Link>{" "}
+
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+            <button
+              className=" duration-300 pb-3 hover:scale-110"
+              onMouseEnter={() => setDropConf(true)}
+            >
+              Attending Conference &#709;
+            </button>
+            <div
+              className={`w-60 md:absolute rounded-lg bg-white -right-10 p-2 z-10 transition-all duration-1000 ${
+                dropConf ? "top-15" : "top-[-200px]"
+              }`}
+              onMouseLeave={() => setDropConf(false)}
+            >
+              <ul className="space-y-2">
+                <li>
+                  <Link
+                    to="/aboutbhubaneswar"
+                    className="flex hover:scale-105 duration-300 "
+                  >
+                    About Bhubaneswar
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </li>
+
           <li className="py-4 px-6 hover:border-b-[2px] border-black ">
             {" "}
             <Link to="/contact">Contact</Link>{" "}

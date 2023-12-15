@@ -3,7 +3,7 @@ import qrcode from "../../../assets/Papers/qrcode.png";
 
 function CallForPapers() {
   return (
-    <div className="my-32 w-[80%] mx-auto text-black">
+    <div className="my-24 w-[80%] mx-auto text-black">
       <div>
         <h1 className="font-bold text-2xl ">
           Contributions are sought in the following areas:
@@ -58,6 +58,10 @@ function CallForPapers() {
               https://cmt3.research.microsoft.com/ASPCC2024
             </a>
           </p>
+          <h1 className="text-lg my-4 font-bold">
+            The Proceeding of this conference will be submitted to IEEE for
+            publication(under consideration)
+          </h1>
         </div>
       </div>
     </div>

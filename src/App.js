@@ -61,6 +61,10 @@ function App() {
             />
 
             <Route path="/registration" element={<RegistrationPage />} />
+            <Route
+              path="/aboutbhubaneswar"
+              element={<UpdatePage name={"About Bhubaneswar"} />}
+            />
             {/* <Route path="*" element={<Navigate to="/" />} /> */}
             <Route path="*" element={<Error404 />} />
           </Routes>
