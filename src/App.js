@@ -8,6 +8,7 @@ import Error404 from "./components/shared/Error404";
 import CommitteesPage from "./Pages/CommitteesPage";
 import CallForPapersPage from "./Pages/PapersPage/CallForPapersPage";
 import RegistrationPage from "./Pages/PapersPage/RegistrationPage";
+import AboutBhubaneswarPage from "./Pages/AttendingConference/AboutBhubaneswarPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -63,7 +64,7 @@ function App() {
             <Route path="/registration" element={<RegistrationPage />} />
             <Route
               path="/aboutbhubaneswar"
-              element={<UpdatePage name={"About Bhubaneswar"} />}
+              element={<AboutBhubaneswarPage />}
             />
             {/* <Route path="*" element={<Navigate to="/" />} /> */}
             <Route path="*" element={<Error404 />} />

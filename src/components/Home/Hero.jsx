@@ -26,13 +26,14 @@ function Hero() {
             Department of Electronics & Telecommunication Engineering{" "}
           </p>
           <p className="text-2xl">And</p>
-          <p className="text-2xl">Department of Electrical Engineering</p>
           <p className="text-xl">
-            {" "}
-            in collaboration with IEEE student branch, IIIT Bhubaneswar
+            Department of Electrical Engineering, IIIT Bhubaneswar India
           </p>
+          <p className="text-xl"> in collaboration with</p>
 
-          <p className="text-xl mb-1">IIIT Bhubaneswar, India</p>
+          <p className="text-xl mb-1">
+            IEEE student branch, IIIT Bhubaneswar India
+          </p>
           <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
             Date of conference: 19<sup class="superscript">th</sup> to 21
             <sup class="superscript">st</sup> December 2024

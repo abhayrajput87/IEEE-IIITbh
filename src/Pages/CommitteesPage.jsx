@@ -93,7 +93,7 @@ const CommitteesPage = () => {
       name: [
         "Dr. Zheng Jianying, Soochow University, South Korea",
         "Dr. Samaresh Bera, IIT Jammu",
-        "Dr. Lalatendu Giri, NIT Goa",
+        "Dr. Lalat Indu Giri, NIT Goa",
         "Dr. Deepak Kumar Rout, IIIT Bhubaneswar",
         "Dr. Somnath Pradhan, IIT Patna",
         "Prof. Jayanta Kumar Sahu, IIIT Bhubaneswar",

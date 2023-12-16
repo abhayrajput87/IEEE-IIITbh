@@ -37,16 +37,16 @@ function Aboutus() {
         <div className="font-semibold mt-4">
           ASPCC is a biennial research-oriented conference jointly conducted by
           the Department of Electronics & Telecommunication Engineering and
-          Department of Electrical Engineering, IIIT Bhubaneswar.The goal of the
-          conference is to bring together leading scientists, researchers, and
-          engineers, developers and academicians working in the cutting-edge
-          technology to discuss novel theories, technologies and applications in
-          the fields of signal processing, Power, communications and computing.
-          The conference will feature prominent plenary speakers as well as
-          technical sessions. The conference shall be organised by IEEE Student
-          branch,IIIT Bhubaneswar in technical collabortion with IEEE
-          Bhubaneswar Subsection and IEEE Communications and Computer Joint
-          Societies chapter, Chandipur, IEEE Kolkata section.
+          Department of Electrical Engineering, IIIT Bhubaneswar in collabortion
+          with IEEE Student branch,IIIT Bhubaneswar .The goal of the conference
+          is to bring together leading scientists, researchers, and engineers,
+          developers and academicians working in the cutting-edge technology to
+          discuss novel theories, technologies and applications in the fields of
+          signal processing, Power, communications and computing. The conference
+          will feature prominent plenary speakers as well as technical sessions.
+          The conference shall be organised in technical collabortion with IEEE
+          Kolkata section, IEEE Bhubaneswar Subsection and IEEE Communications
+          and Computer Joint Societies chapter, Chandipur.
         </div>
       </div>
     </div>
