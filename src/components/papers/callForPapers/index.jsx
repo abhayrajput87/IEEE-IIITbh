@@ -58,10 +58,16 @@ function CallForPapers() {
               https://cmt3.research.microsoft.com/ASPCC2024
             </a>
           </p>
-          <h1 className="text-lg my-4 font-bold">
+          <h1 className="text-lg mt-7 font-bold">
             The Proceeding of this conference will be submitted to IEEE for
-            publication(under consideration)
+            publication.
           </h1>
+          <a
+            className="text-blue-700 underline"
+            href="https://cmt3.research.microsoft.com/ASPCC2024"
+          >
+            http://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191%7C
+          </a>
         </div>
       </div>
     </div>
