@@ -5,6 +5,7 @@ import Navbar from "../components/shared/Navbar";
 import Bottom from "../components/shared/Bottom";
 import ImpDates from "../components/slidingText/ImpDates";
 import Aboutus from "../components/Home/Aboutus";
+import LogoSection from "../components/Home/LogoSection";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Navbar />
       <Hero />
       <ImpDates>Important Dates 19th to 21st December 2024</ImpDates>
+      <LogoSection />
       <Aboutus />
       <Aim />
       <Contact />
