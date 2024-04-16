@@ -136,6 +136,10 @@ const CommitteesPage = () => {
         "Dr. Anandarup Mukharjee, University of Cambridge, UK",
       ],
     },
+    {
+      dept: "IEEE Liaison Committee",
+      name: ["Atanu Kundu IEEE Kolkata Section", "Pradipta Roy, ITR ChandiPur"],
+    },
   ];
   return (
     <div>

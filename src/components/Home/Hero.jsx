@@ -13,31 +13,45 @@ function Hero() {
         />
 
         {/* Text Overlay */}
-        <div className="absolute inset-0 flex flex-col text-center items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
-          <h1 className="md:text-8xl text-4xl mb-4 mt-4 font-bold ">
-            ASPCC 2024
-          </h1>
-          <p className="md:text-3xl text-xl md:px-16 font-bold  mb-2">
-            1st International Conference on Advances in Signal Processing,
-            Power, <br /> Communication and Computing
-          </p>
-          <p className="text-2xl">Organised by</p>
-          <p className="text-2xl">
-            Department of Electronics & Telecommunication Engineering{" "}
-          </p>
-          <p className="text-2xl">And</p>
-          <p className="text-xl">
-            Department of Electrical Engineering, IIIT Bhubaneswar India
-          </p>
-          <p className="text-xl"> in collaboration with</p>
+        <div className="absolute inset-0 flex   items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
+          <div className="bg-yellow-500 md:h-1/2 h-1/4 rounded-xl justify-center m-4 md:m-8 p-4 flex flex-col">
+            <p className="text-2xl font-bold ">Conference Record #62191</p>
+            <a
+              className="text-blue-500 font-bold underline"
+              href="http://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191%7C"
+            >
+              Click on the Link
+            </a>
+          </div>
+          <div className="flex flex-col   text-center">
+            <h1 className="md:text-8xl text-4xl mb-4 font-bold ">ASPCC 2024</h1>
+            <p className="md:text-3xl text-xl md:px-16 font-bold  mb-2">
+              1st International Conference on Advances in Signal Processing,
+              Power, <br /> Communication and Computing
+            </p>
+            <p className="text-2xl">Organised by</p>
+            <p className="text-2xl">
+              Department of Electronics & Telecommunication Engineering{" "}
+            </p>
+            <p className="text-2xl">And</p>
+            <p className="text-xl">
+              Department of Electrical Engineering, IIIT Bhubaneswar India
+            </p>
+            <p className="text-xl"> in collaboration with</p>
 
-          <p className="text-xl mb-1">
-            IEEE student branch, IIIT Bhubaneswar India
-          </p>
-          <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
-            Date of conference: 19<sup class="superscript">th</sup> to 21
-            <sup class="superscript">st</sup> December 2024
-          </p>
+            <p className="text-xl mb-1">
+              IEEE student branch, IIIT Bhubaneswar India
+            </p>
+            <p>
+              The conference shall be conducted in technical collaboration with
+              IEEE Bhubaneswar Subsection, IEEE Kolkata section, IEEE
+              communications and computer joint society Chandipur
+            </p>
+            <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
+              Date of conference: 19<sup class="superscript">th</sup> to 21
+              <sup class="superscript">st</sup> December 2024
+            </p>
+          </div>
         </div>
       </div>
     </>
