@@ -138,7 +138,7 @@ const CommitteesPage = () => {
     },
     {
       dept: "IEEE Liaison Committee",
-      name: ["Atanu Kundu IEEE Kolkata Section", "Pradipta Roy, ITR ChandiPur"],
+      name: ["Atanu Kundu IEEE Kolkata Section", "Pradipta Roy, ITR Chandipur"],
     },
   ];
   return (
