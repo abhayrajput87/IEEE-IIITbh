@@ -4,7 +4,7 @@ import touch from "../../assets/Navbar/touch.jpg";
 function Aim() {
   return (
     <>
-      <div className="flex bg-[#f3f3f3]  pt-8 md:pt-16 md:flex-row">
+      <div className="flex flex-col bg-[#f3f3f3]  pt-8 md:pt-16 md:flex-row">
         <div className="md:w-1/2">
           <img
             className="object-cover h-[300px] w-[100%] mx-auto p-4"
@@ -17,7 +17,7 @@ function Aim() {
             </button>
           </div>
         </div>
-        <div className="w-1/2 mx-auto text-black px-8 mb-8 ">
+        <div className="md:w-1/2 mx-auto text-black px-8 mb-8 ">
           <h1 className="font-bold text-4xl mb-4 ">Important Dates</h1>
           <div className="border-2 rounded-lg font-sans p-8  border-gray-400">
             <ul className="list-disc font-semibold space-y-2">

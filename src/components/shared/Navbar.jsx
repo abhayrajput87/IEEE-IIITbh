@@ -165,17 +165,15 @@ function Navbar() {
               <Link to="/">Home</Link>
             </li>
             <li className="p-4 border-b border-b-gray-600">
-              <Link to="/committees">Committees</Link>
+              <Link to="/organisingcommittee">Organising Committee</Link>
             </li>
+
             <li className="p-4 border-b border-b-gray-600">
               <Link to="/papers">Papers</Link>
             </li>
             <li className="p-4 border-b border-b-gray-600">
               {" "}
               <Link to="/program">Program</Link>
-            </li>
-            <li className="p-4 border-b border-b-gray-600">
-              <Link to="/conferences">Attending Conference</Link>
             </li>
             <li className="p-4 ">
               <Link to="/contact">Contact</Link>

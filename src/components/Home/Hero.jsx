@@ -4,7 +4,7 @@ import heroPic from "../../assets/bgImg.jpeg";
 function Hero() {
   return (
     <>
-      <div className="relative min-h-screen" style={{ background: "#000" }}>
+      <div className="relative " style={{ background: "#000" }}>
         {/* Background Image */}
         <img
           src={heroPic}
@@ -13,8 +13,8 @@ function Hero() {
         />
 
         {/* Text Overlay */}
-        <div className="absolute inset-0 flex   items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
-          <div className="bg-yellow-500 md:h-1/2 h-1/4 rounded-xl justify-center m-4 md:m-8 p-4 flex flex-col">
+        <div className="absolute inset-0 flex items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
+          <div className="hidden md:flex  bg-yellow-500 md:h-1/2 h-1/4 rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">
             <p className="text-2xl font-bold ">Conference Record #62191</p>
             <a
               className="text-blue-500 font-bold underline"
