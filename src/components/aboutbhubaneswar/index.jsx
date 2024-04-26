@@ -7,13 +7,13 @@ function AboutBhubaneswar() {
     <div>
       <div className=" w-full h-full pb-16 grid gap-8 lg:grid-cols-2 px-12 md:px-16 pt-32">
         <div>
-          <img src={Lingaraj} alt="" />
+          <img className="object-cover" src={Lingaraj} alt="" />
         </div>
         <div className="flex flex-col">
           <p className="pb-4 text-[#397e25] font-extrabold border-[#397e25]">
             Welcome to Bhubaneswar
           </p>
-          <h1 className="pb-4 text-5xl font-extrabold text-black">
+          <h1 className="pb-4 text-3xl md:text-5xl font-extrabold text-black">
             BHUBANESEWAR <span className=" text-[#397e25] ">CITY</span>
           </h1>
           <div className="flex flex-row space-x-2 ">
@@ -47,7 +47,7 @@ function AboutBhubaneswar() {
           <p className="pb-4 text-[#397e25] font-extrabold border-[#397e25]">
             Sri Jagannatha Dhama
           </p>
-          <h1 className="pb-4 text-5xl font-extrabold text-black">
+          <h1 className="pb-4 text-3xl md:text-5xl font-extrabold text-black">
             PURI <span className=" text-[#397e25] ">CITY</span>
           </h1>
           <div className="flex flex-row space-x-2 ">
@@ -80,7 +80,7 @@ function AboutBhubaneswar() {
           <p className="pb-4 text-[#397e25] font-extrabold border-[#397e25]">
             Silver City
           </p>
-          <h1 className="pb-4 text-5xl font-extrabold text-black">
+          <h1 className="pb-4 text-3xl md:text-5xl font-extrabold text-black">
             CUTTACK <span className=" text-[#397e25] ">CITY</span>
           </h1>
           <div className="flex flex-row space-x-2 ">

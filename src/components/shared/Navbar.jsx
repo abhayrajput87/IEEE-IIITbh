@@ -147,11 +147,12 @@ function Navbar() {
             <AiOutlineClose className="text-black" size={20} />
           )}
         </div>
+
         {/*MOBILE NAVBAR */}
         <div
           className={
             nav
-              ? "block fixed left-0 top-0 w-[100%] h-screen bg-[#ffffff] border-r border-r-gray-900 ease-in-out duration-500 z-40 sm:hidden"
+              ? "block fixed left-0 top-0 w-[100%] h-screen bg-[#ffffff] border-r border-r-gray-900 ease-in-out duration-500 z-40 md:hidden"
               : "fixed left-[-100%]"
           }
         >
@@ -169,11 +170,18 @@ function Navbar() {
             </li>
 
             <li className="p-4 border-b border-b-gray-600">
-              <Link to="/papers">Papers</Link>
+              <Link to="/papers">Call For Papers</Link>
+            </li>
+            <li className="p-4 border-b border-b-gray-600">
+              <Link to="/registration">Registration</Link>
             </li>
             <li className="p-4 border-b border-b-gray-600">
               {" "}
               <Link to="/program">Program</Link>
+            </li>
+            <li className="p-4 border-b border-b-gray-600">
+              {" "}
+              <Link to="/aboutbhubaneswar">About Bhubaneswar</Link>
             </li>
             <li className="p-4 ">
               <Link to="/contact">Contact</Link>
