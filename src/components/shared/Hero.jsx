@@ -28,7 +28,7 @@ const Hero = ({ children }) => {
             </Link>
             <Link
               to={`/${children}`}
-              className="border-l-2 px-2 underline underline-offset-1 border-green-500 "
+              className="border-l-2 px-2 flex underline underline-offset-1 border-green-500 "
             >
               {children}
             </Link>
