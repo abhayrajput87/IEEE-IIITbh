@@ -143,6 +143,10 @@ const CommitteesPage = () => {
         "Dr. Pradipta Roy, ITR Chandipur",
       ],
     },
+    {
+      dept: "IEEE Bhubaneswar commison",
+      name: ["Dr Ranjeeta  Patel"],
+    },
   ];
   return (
     <div>
