@@ -141,11 +141,8 @@ const CommitteesPage = () => {
       name: [
         "Dr. Atanu Kundu IEEE Kolkata Section",
         "Dr. Pradipta Roy, ITR Chandipur",
+        "Dr. Ranjeeta  Patel (IEEE Bhubaneswar commison)",
       ],
-    },
-    {
-      dept: "IEEE Bhubaneswar commison",
-      name: ["Dr Ranjeeta  Patel"],
     },
   ];
   return (
