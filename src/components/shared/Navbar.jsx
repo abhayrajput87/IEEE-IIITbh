@@ -1,7 +1,7 @@
 import iiit from "../../assets/Navbar/iiit.jpg";
 import aspcc from "../../assets/Navbar/aspcc.jpg";
 import ieee from "../../assets/Navbar/ieee.jpg";
-import { Link } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 
 import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
@@ -189,6 +189,7 @@ function Navbar() {
           </ul>
         </div>
       </div>
+      <Outlet />
     </>
   );
 }

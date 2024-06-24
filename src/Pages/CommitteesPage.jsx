@@ -1,6 +1,5 @@
 import React from "react";
 import Committees from "../components/committees/Index";
-import Navbar from "../components/shared/Navbar";
 import Hero from "../components/shared/Hero";
 import Bottom from "../components/shared/Bottom";
 
@@ -147,7 +146,6 @@ const CommitteesPage = () => {
   ];
   return (
     <div>
-      <Navbar />
       <Hero>committees</Hero>
       <Committees data={data} />
       <Bottom />
