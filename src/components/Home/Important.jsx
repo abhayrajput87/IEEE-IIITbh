@@ -15,8 +15,12 @@ function Important() {
             <span className=" font-bold">19th to 21st December 2024</span>
           </li>
           <li>
-            Paper submission deadline:
+            Paper submission deadline:1st Round
             <span className=" font-bold"> 1st August 2024</span>
+          </li>
+          <li>
+            Paper submission deadline:2nd Round
+            <span className=" font-bold"> 30th August 2024</span>
           </li>
           <li>
             Paper acceptance notification:
