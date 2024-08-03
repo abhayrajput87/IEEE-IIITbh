@@ -147,7 +147,7 @@ const CommitteesPage = () => {
   return (
     <div>
       <Hero>committees</Hero>
-      <Committees data={data} />
+      <Committees data={data} heading="Organising Committee" />
       <Bottom />
     </div>
   );

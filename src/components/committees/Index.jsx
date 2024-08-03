@@ -1,6 +1,6 @@
 import React from "react";
 
-const Committees = ({ data }) => {
+const Committees = ({ data, heading }) => {
   const renderedData = data.map((rowData) => (
     <React.Fragment key={rowData.dept}>
       {/* Department row */}
@@ -21,12 +21,12 @@ const Committees = ({ data }) => {
   ));
 
   return (
-    <div>
-      <div className="relative overflow-x-auto w-[80%] md:w-[70%] mx-auto mt-16 mb-16 text-black shadow-md sm:rounded-lg">
-        <h1 className="font-bold text-4xl text-green-500 underline underline-offset-2">
-          Organising Committee
+    <div className="flex justify-center">
+      <div className="overflow-x-auto w-[80%] md:w-[70%] mt-16 mb-16 text-black shadow-md sm:rounded-lg">
+        <h1 className="font-bold text-4xl text-green-500 underline underline-offset-2 text-center">
+          {heading}
         </h1>
-        <table className=" border border-black mt-4  text-left rtl:text-right text-gray-900 ">
+        <table className="border border-black mt-4 text-left rtl:text-right text-gray-900 mx-auto">
           <tbody>{renderedData}</tbody>
         </table>
       </div>

@@ -10,6 +10,7 @@ import CallForPapersPage from "./Pages/PapersPage/CallForPapersPage";
 import RegistrationPage from "./Pages/PapersPage/RegistrationPage";
 import AboutBhubaneswarPage from "./Pages/AttendingConference/AboutBhubaneswarPage";
 import Navbar from "./components/shared/Navbar";
+import TpcCommitteePage from "./Pages/TpcCommitteePage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -62,7 +63,7 @@ function App() {
               {/* <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} /> */}
               <Route
                 path="/technicalprogramcommittee"
-                element={<UpdatePage name={"Technical program committee"} />}
+                element={<TpcCommitteePage />}
               />
               <Route
                 path="/internationaladvisorycommittee"
