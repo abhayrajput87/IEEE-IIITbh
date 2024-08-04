@@ -13,6 +13,7 @@ function Home() {
       <Hero />
       <ConferenceBox />
       <ImpDates>Important Dates 19th to 21st December 2024</ImpDates>
+      <ImpDates> 2nd round submission is open till 30th August 2024</ImpDates>
       <LogoSection />
       <Aboutus />
       <Aim />

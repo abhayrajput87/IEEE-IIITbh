@@ -54,16 +54,6 @@ const TpcCommitteePage = () => {
     <div>
       <Hero>Technical Program Committee</Hero>
       <Committees data={data} heading="Technical Program Committee" />
-      <div className="text-black w-[80%] md:w-[70%] py-12 mx-auto px-2 md:px-6 ">
-        <h2 className="font-extrabold text-3xl mb-4">Keynote Speakers:</h2>
-        <ol className="list-decimal text-xl text-semibold inline-block text-left">
-          <li>Dr. Ram Bilas Pachori, IIT Indore </li>
-          <li>Dr. Debabrata Das, IIIT Bangalore </li>
-          <li>Dr. M.N.S. Swamy, Concordia University, Canada</li>
-          <li>Dr. Surender Reddy Salkuti, Woosong University, South Korea</li>
-          <li>Dr. Bidyadhar Subudhi, NIT Warangal </li>
-        </ol>
-      </div>
       <Bottom />
     </div>
   );
