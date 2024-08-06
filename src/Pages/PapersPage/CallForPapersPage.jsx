@@ -8,7 +8,7 @@ function CallForPapersPage() {
   return (
     <div>
       <Hero>callforpapers</Hero>
-      <ImpDates>Paper submission starts: 20th December 2023</ImpDates>
+      <ImpDates>2nd round submission is open till 30th August 2024</ImpDates>
       <CallForPapers />
       <Bottom />
     </div>
