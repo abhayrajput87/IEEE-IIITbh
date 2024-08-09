@@ -11,6 +11,7 @@ import RegistrationPage from "./Pages/PapersPage/RegistrationPage";
 import AboutBhubaneswarPage from "./Pages/AttendingConference/AboutBhubaneswarPage";
 import Navbar from "./components/shared/Navbar";
 import TpcCommitteePage from "./Pages/TpcCommitteePage";
+import ContactPage from "./Pages/ContactPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -55,10 +56,7 @@ function App() {
                 path="/conferences"
                 element={<UpdatePage name={"Conferences"} />}
               />
-              <Route
-                path="/contact"
-                element={<UpdatePage name={"Contact"} />}
-              />
+              <Route path="/contact" element={<ContactPage />} />
               <Route path="/callforpapers" element={<CallForPapersPage />} />
               {/* <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} /> */}
               <Route

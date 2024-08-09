@@ -2,7 +2,6 @@ import Hero from "../components/Home/Hero";
 import Aim from "../components/Home/Aim";
 import Contact from "../components/Home/Contact";
 import Bottom from "../components/shared/Bottom";
-import ImpDates from "../components/slidingText/ImpDates";
 import Aboutus from "../components/Home/Aboutus";
 import LogoSection from "../components/Home/LogoSection";
 import ConferenceBox from "../components/Home/ConferenceBox";
@@ -12,8 +11,6 @@ function Home() {
     <div className="App">
       <Hero />
       <ConferenceBox />
-      <ImpDates>Important Dates 19th to 21st December 2024</ImpDates>
-      <ImpDates> 2nd round submission is open till 30th August 2024</ImpDates>
       <LogoSection />
       <Aboutus />
       <Aim />

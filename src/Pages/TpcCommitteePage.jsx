@@ -12,6 +12,7 @@ const TpcCommitteePage = () => {
         "Dr. Suvendu Rup, NIT Raipur",
         "Dr. Ratnakar Das, NIT Rourkela",
         "Dr. Subrata Kumar Mohanty, IIIT Bhubaneswar",
+        "Dr. Bijayananda   Patnaik, NIT Raipur",
       ],
     },
     {
@@ -27,8 +28,8 @@ const TpcCommitteePage = () => {
       name: [
         "Dr. Suman Dey, NIT Rourkela",
         "Dr. Deepika Agrawal, NIT Raipur",
-        "Dr. Bijayananda   Patnaik, NIT Raipur",
         "Dr. Rajat Kumar Giri, IIIT Bhubaneswar",
+        "Prof. Sudhakar  Pandey, NIT Raipur",
       ],
     },
     {
@@ -46,7 +47,6 @@ const TpcCommitteePage = () => {
         "Dr. Kishor Sarawadekar, IITBHU",
         "Dr. B. Naresh Kumar Reddy, NIT Trichy",
         "Dr. Sanjeev Kumar Mishra, IIIT Bhubaneswar",
-        "Prof. Sudhakar  Pandey, NIT Raipur",
       ],
     },
   ];
