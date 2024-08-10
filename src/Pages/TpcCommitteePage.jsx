@@ -26,10 +26,10 @@ const TpcCommitteePage = () => {
     {
       dept: "Communication Systems",
       name: [
+        "Prof. Sudhakar  Pandey, NIT Raipur",
         "Dr. Suman Dey, NIT Rourkela",
         "Dr. Deepika Agrawal, NIT Raipur",
         "Dr. Rajat Kumar Giri, IIIT Bhubaneswar",
-        "Prof. Sudhakar  Pandey, NIT Raipur",
       ],
     },
     {
@@ -47,6 +47,7 @@ const TpcCommitteePage = () => {
         "Dr. Kishor Sarawadekar, IITBHU",
         "Dr. B. Naresh Kumar Reddy, NIT Trichy",
         "Dr. Sanjeev Kumar Mishra, IIIT Bhubaneswar",
+        "Dr. Lalatendu Behera, Dr. B.R. Ambedekar National Institute of Technology, Jalandhar",
       ],
     },
   ];

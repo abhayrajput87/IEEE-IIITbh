@@ -13,9 +13,14 @@ function Aim() {
             alt=""
           />
           <div className="flex  justify-center items-center">
-            <button className=" bg-green-600 text-wite py-2 px-8 hover:bg-green-500 hover:duration-500 text-[#f3f3f3]  rounded-lg ">
+            <a
+              href="https://docs.google.com/document/d/1nTx9L5_CceOlwx_MJUWDfK75yYreh47i/edit?usp=sharing&ouid=108279120498779580917&rtpof=true&sd=true"
+              className="bg-green-600 text-wite py-2 px-8 hover:bg-green-500 hover:duration-500 text-[#f3f3f3] rounded-lg"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               Brochure
-            </button>
+            </a>
           </div>
         </div>
         <div className="md:w-1/2 mx-auto text-black px-8 mb-8 ">
