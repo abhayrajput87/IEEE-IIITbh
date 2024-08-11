@@ -13,7 +13,7 @@ function Important() {
       </li>
       <li>
         Paper submission deadline (<i>1st Round</i>):
-        <span className=" font-bold"> 1st August 2024</span>
+        <span className=" font-bold line-through"> 1st August 2024</span>
       </li>
       <li>
         Paper submission deadline (<i>2nd Round</i>):
@@ -21,7 +21,7 @@ function Important() {
       </li>
       <li>
         Paper acceptance notification:
-        <span className=" font-bold underline"> 30th September 2024</span>
+        <span className=" font-bold "> 30th September 2024</span>
       </li>
       <li>
         Camera ready submission and registration deadline:
