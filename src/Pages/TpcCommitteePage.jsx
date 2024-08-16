@@ -6,7 +6,7 @@ import Bottom from "../components/shared/Bottom";
 const TpcCommitteePage = () => {
   const data = [
     {
-      dept: "Multimedia and Signal Processing",
+      dept: "Multidimensional Signal Processing",
       name: [
         "Dr. M. S. Manikandan, IIT Palakkad",
         "Dr. Suvendu Rup, NIT Raipur",
@@ -16,7 +16,7 @@ const TpcCommitteePage = () => {
       ],
     },
     {
-      dept: "Power, Energy, and Control",
+      dept: "Intelligent Electrical Systems",
       name: [
         "Dr. Chandrasekhar Perumalla, IIT Bhubaneswar",
         "Dr. Siv Kumar Mishra, CUPGS, BPUT, Rourkela",
@@ -24,7 +24,7 @@ const TpcCommitteePage = () => {
       ],
     },
     {
-      dept: "Communication Systems",
+      dept: "Communication Systems and Beyond Wireless Communication",
       name: [
         "Prof. Sudhakar  Pandey, NIT Raipur",
         "Dr. Suman Dey, NIT Rourkela",
@@ -42,7 +42,7 @@ const TpcCommitteePage = () => {
       ],
     },
     {
-      dept: "System Design",
+      dept: "Embedded Systems & IoT",
       name: [
         "Dr. Kishor Sarawadekar, IITBHU",
         "Dr. B. Naresh Kumar Reddy, NIT Trichy",
