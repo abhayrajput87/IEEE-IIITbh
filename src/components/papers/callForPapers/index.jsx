@@ -58,6 +58,64 @@ function CallForPapers() {
               https://cmt3.research.microsoft.com/ASPCC2024
             </a>
           </p>
+          <br />
+          <div>
+            <pre className="underline text-2xl semi-bold">Paper format</pre>{" "}
+            <pre>Microsoft Word</pre>{" "}
+            <pre>
+              <a
+                className="text-blue-700 underline"
+                href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-letter.docx"
+              >
+                US letter
+              </a>{" "}
+              (DOC, 30 KB) Updated 2024{" "}
+            </pre>
+            <pre></pre>
+            <a
+              className="text-blue-700 underline"
+              href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-template-a4.docx"
+            >
+              A4
+            </a>{" "}
+            (DOC, 30 KB) Updated 2024
+            <pre>
+              <a
+                className="text-blue-700 underline"
+                href="http://www.ctan.org/tex-archive/macros/latex/contrib/IEEEtran/IEEEtran_HOWTO.pdf"
+              >
+                LaTeX Template Instructions
+              </a>{" "}
+              (PDF, 63 KB)
+            </pre>
+            <pre>
+              <a
+                className="text-blue-700 underline"
+                href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/conference-latex-template.zip"
+              >
+                Template
+              </a>{" "}
+              (ZIP, 700 KB) Updated 2024
+            </pre>
+            <pre>
+              <a
+                className="text-blue-700 underline"
+                href="https://www.ieee.org/content/dam/ieee-org/ieee/web/org/conferences/IEEEtranBST2.zip"
+              >
+                LaTeX Bibliography Files
+              </a>{" "}
+              (ZIP, 309 KB)
+            </pre>{" "}
+            <pre></pre>
+            Overleaf <pre></pre>When working in Overleaf, the template is
+            available at{" "}
+            <a
+              className="text-blue-700 underline"
+              href="https://www.overleaf.com/gallery/tagged/ieee-official"
+            >
+              https://www.overleaf.com/gallery/tagged/ieee-official
+            </a>
+          </div>
           <h1 className="text-lg mt-7 font-bold">
             The Proceeding of this conference will be submitted to IEEE for
             publication.

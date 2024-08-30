@@ -14,7 +14,10 @@ function Hero() {
 
         {/* Text Overlay */}
         <div className="absolute inset-0 items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
-          <ImpDates>Important Dates 19th to 21st December 2024</ImpDates>
+          <ImpDates>
+            {" "}
+            2nd round submission is open till 10 September 2024(Hard deadline)
+          </ImpDates>
           <div className="flex items-center">
             <div className="hidden md:flex  h-[200px] bg-yellow-500  rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">
               <p className="text-2xl font-bold ">Conference Record #62191</p>
@@ -47,9 +50,9 @@ function Hero() {
                 IEEE student branch, IIIT Bhubaneswar India
               </p>
               <p>
-                The conference shall be conducted in technical collaboration
-                with IEEE Bhubaneswar Subsection, IEEE Kolkata section, IEEE
-                communications and computer joint society Chandipur
+                in technical collaboration with IEEE Bhubaneswar Subsection,
+                IEEE Kolkata section, IEEE communications and computer joint
+                society Chandipur
               </p>
               <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
                 Date of conference: 19<sup class="superscript">th</sup> to 21
