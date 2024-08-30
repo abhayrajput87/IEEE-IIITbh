@@ -64,9 +64,9 @@ function CallForPapers() {
           </h1>
           <a
             className="text-blue-700 underline"
-            href="https://cmt3.research.microsoft.com/ASPCC2024"
+            href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191"
           >
-            http://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191%7C
+            https://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191
           </a>
         </div>
       </div>
