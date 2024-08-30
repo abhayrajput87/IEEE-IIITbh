@@ -20,7 +20,7 @@ function Hero() {
               <p className="text-2xl font-bold ">Conference Record #62191</p>
               <a
                 className="text-blue-500 font-bold underline"
-                href="http://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191%7C"
+                href="https://conferences.ieee.org/conferences_events/conferences/conferencedetails/62191"
               >
                 Click on the Link
               </a>
