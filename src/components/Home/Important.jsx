@@ -21,7 +21,7 @@ function Important() {
       </li>
       <li>
         Paper acceptance notification:
-        <span className=" font-bold "> 30th September 2024</span>
+        <span className=" font-bold "> 15th October 2024</span>
       </li>
       <li>
         Camera ready submission and registration deadline:
