@@ -161,29 +161,85 @@ function Navbar() {
           </h1>
 
           <ul className="p-4">
-            <li className="p-4 border-b border-b-gray-600">
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
               {" "}
               <Link to="/">Home</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-600">
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
               <Link to="/organisingcommittee">Organising Committee</Link>
             </li>
-
-            <li className="p-4 border-b border-b-gray-600">
-              <Link to="/papers">Call For Papers</Link>
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
+              <Link to="/technicalprogramcommittee">
+                Technical Program Committee
+              </Link>
             </li>
-            <li className="p-4 border-b border-b-gray-600">
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
+              <Link to="/internationaladvisorycommittee">
+                International Advisory Committee
+              </Link>
+            </li>
+
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
+              <Link to="/callforpapers">Call For Papers</Link>
+            </li>
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
               <Link to="/registration">Registration</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-600">
+
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
               {" "}
               <Link to="/program">Program</Link>
             </li>
-            <li className="p-4 border-b border-b-gray-600">
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 border-b border-b-gray-600"
+            >
               {" "}
               <Link to="/aboutbhubaneswar">About Bhubaneswar</Link>
             </li>
-            <li className="p-4 ">
+            <li
+              onClick={() => {
+                setNav(!nav);
+              }}
+              className="p-4 "
+            >
               <Link to="/contact">Contact</Link>
             </li>
           </ul>
