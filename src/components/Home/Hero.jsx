@@ -16,7 +16,7 @@ function Hero() {
         <div className="absolute inset-0 items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
           <ImpDates>
             {" "}
-            2nd round submission is open till 10 September 2024(Hard deadline)
+            We are sending paper acceptance notification in phased manner
           </ImpDates>
           <div className="flex items-center">
             <div className="hidden md:flex  h-[200px] bg-yellow-500  rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">
