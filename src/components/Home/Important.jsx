@@ -24,13 +24,14 @@ function Important() {
         <span className=" font-bold "> 30th October 2024</span>
       </li>
       <li>
-        Camera ready submission and registration deadline:
-        <span className=" font-bold">15th November 2024</span>
-      </li>
-      <li>
         Revised paper submissions:
         <span className=" font-bold">7th November 2024</span>
       </li>
+      <li>
+        Camera ready submission and registration deadline:
+        <span className=" font-bold">15th November 2024</span>
+      </li>
+      
     </ul>
   );
 }
