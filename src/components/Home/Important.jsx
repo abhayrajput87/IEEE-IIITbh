@@ -25,7 +25,7 @@ function Important() {
       </li>
       <li>
         Revised paper submissions:
-        <span className=" font-bold">7th November 2024</span>
+        <span className=" font-bold">15th November 2024</span>
       </li>
       <li>
         Camera ready submission and registration deadline:
