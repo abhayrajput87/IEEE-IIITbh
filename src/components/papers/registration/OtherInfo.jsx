@@ -13,7 +13,7 @@ const OtherInfo = () => {
           <p><strong>Address:</strong> IIIT BHUBANESWAR, GOTHAPATNA, KHORDHA, INDIA, PIN:751003</p>
           <p><strong>Bank Name:</strong> Union Bank of India</p>
           <p><strong>IFSC Code:</strong> UBIN0817317</p>
-          <p><strong>SWIFT Code:</strong> UBININBBBHUB</p>
+          <p><strong>SWIFT Code:</strong> UBININBBBNW</p>
         </div>
 
         <div className="mb-6">
