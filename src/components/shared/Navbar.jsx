@@ -101,7 +101,7 @@ function Navbar() {
                 </li>
                 <li>
                   <Link
-                    to="/registration"
+                    to="/cameraready"
                     className="flex hover:scale-105 duration-300"
                   >
                     Camera-ready submission guidelines

@@ -12,6 +12,7 @@ import AboutBhubaneswarPage from "./Pages/AttendingConference/AboutBhubaneswarPa
 import Navbar from "./components/shared/Navbar";
 import TpcCommitteePage from "./Pages/TpcCommitteePage";
 import ContactPage from "./Pages/ContactPage";
+import CameraReadyPage from "./Pages/AttendingConference/CameraReadyPage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -63,6 +64,11 @@ function App() {
                 path="/technicalprogramcommittee"
                 element={<TpcCommitteePage />}
               />
+              <Route
+                path="/cameraready"
+                element={<CameraReadyPage/>}
+              />
+            
               <Route
                 path="/internationaladvisorycommittee"
                 element={
