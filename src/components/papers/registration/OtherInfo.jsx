@@ -22,7 +22,7 @@ const OtherInfo = () => {
             <li>Every accepted paper can have up to 6 pages in the final PDF. If needed, additional pages (maximum 2 more) can be added with extra charge of INR 1000 per page at the time of author registration payment.</li>
             <li>At least one of the authors of every accepted paper must register for the conference and present the paper.</li>
             <li>Non-refundable registration fee must be paid prior to submitting the final IEEE formatted, camera-ready version of the paper and e-copyright form.</li>
-            <li>After payment, please fill the following Google form: <a href="https://forms.gle/ofisD6JGF37wv1b9" className="text-blue-500 underline">Registration Form</a></li>
+            <li>After payment, please fill the following Google form: <a href="https://docs.google.com/forms/d/e/1FAIpQLScMrTZWB1-Jg5ZGhK9FzLTRq8iqu830_r-cM5nlF53Q6lUiCw/viewform?usp=sf_link " className="text-blue-500 underline">Registration Form</a></li>
             <li>Each registration entitles the author to present one accepted paper only.</li>
             <li>If more than one author attends, all authors must register separately by paying applicable fees.</li>
             <li>At least one author must present the accepted paper for inclusion on IEEE Xplore.</li>
