@@ -16,7 +16,7 @@ function Hero() {
         <div className="absolute inset-0 items-center bg-black bg-opacity-50 md:mt-16 justify-center  text-white">
           <ImpDates>
             {" "}
-            We are sending paper acceptance notification in phased manner.
+            Registration and camera-ready submission deadline:20th November 2024.
           </ImpDates>
           <div className="flex items-center">
             <div className="hidden md:flex  h-[200px] bg-yellow-500  rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">

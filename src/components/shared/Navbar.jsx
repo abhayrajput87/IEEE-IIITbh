@@ -77,7 +77,7 @@ function Navbar() {
               Papers &#709;
             </button>
             <div
-              className={`w-40 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
+              className={`w-50 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
                 dropdown ? "top-15" : "top-[-200px]"
               }`}
               onMouseLeave={() => setDropdown(false)}
@@ -97,6 +97,14 @@ function Navbar() {
                     className="flex hover:scale-105 duration-300"
                   >
                     Registration
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/registration"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    Camera-ready submission guidelines
                   </Link>
                 </li>
               </ul>
@@ -127,6 +135,14 @@ function Navbar() {
                     className="flex hover:scale-105 duration-300 "
                   >
                     About Bhubaneswar
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to="/accommodation"
+                    className="flex hover:scale-105 duration-300"
+                  >
+                    Accommodation
                   </Link>
                 </li>
               </ul>

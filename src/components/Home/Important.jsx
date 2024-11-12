@@ -29,7 +29,7 @@ function Important() {
       </li>
       <li>
         Camera ready submission and registration deadline:
-        <span className=" font-bold">15th November 2024</span>
+        <span className=" font-bold">20th November 2024</span>
       </li>
       
     </ul>

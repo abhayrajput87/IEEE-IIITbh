@@ -72,6 +72,10 @@ function App() {
 
               <Route path="/registration" element={<RegistrationPage />} />
               <Route
+                path="/accommodation"
+                element={<UpdatePage name={"Accommodation"} />}
+              />
+              <Route
                 path="/aboutbhubaneswar"
                 element={<AboutBhubaneswarPage />}
               />
