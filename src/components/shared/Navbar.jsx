@@ -27,10 +27,13 @@ function Navbar() {
             <Link to="/">Home</Link>
           </li>
 
-          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black "
+           onMouseEnter={() => setDrop(true)}
+           onMouseLeave={() => setDrop(false)}
+          >
             <button
               className=" duration-300 pb-3 hover:scale-110"
-              onMouseEnter={() => setDrop(true)}
+             
             >
               Committees &#709;
             </button>
@@ -38,7 +41,7 @@ function Navbar() {
               className={`w-60 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
                 drop ? "top-15" : "top-[-200px]"
               }`}
-              onMouseLeave={() => setDrop(false)}
+   
             >
               <ul className="space-y-2">
                 <li>
@@ -69,10 +72,13 @@ function Navbar() {
             </div>
           </li>
 
-          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black "
+           onMouseEnter={() => setDropdown(true)}
+           onMouseLeave={() => setDropdown(false)}
+          >
             <button
               className=" duration-300 pb-3 hover:scale-110"
-              onMouseEnter={() => setDropdown(true)}
+             
             >
               Papers &#709;
             </button>
@@ -80,7 +86,7 @@ function Navbar() {
               className={`w-50 md:absolute rounded-lg bg-white -right-20 p-2 z-10 transition-all duration-1000 ${
                 dropdown ? "top-15" : "top-[-200px]"
               }`}
-              onMouseLeave={() => setDropdown(false)}
+             
             >
               <ul className="space-y-2">
                 <li>
@@ -115,10 +121,13 @@ function Navbar() {
             <Link to="/program">Program</Link>{" "}
           </li>
 
-          <li className="relative py-4 px-6 hover:border-b-[2px] border-black ">
+          <li className="relative py-4 px-6 hover:border-b-[2px] border-black "
+           onMouseEnter={() => setDropConf(true)}
+           onMouseLeave={() => setDropConf(false)}
+           >
             <button
               className=" duration-300 pb-3 hover:scale-110"
-              onMouseEnter={() => setDropConf(true)}
+             
             >
               Attending Conference &#709;
             </button>
@@ -126,7 +135,7 @@ function Navbar() {
               className={`w-60 md:absolute rounded-lg bg-white -right-10 p-2 z-10 transition-all duration-1000 ${
                 dropConf ? "top-15" : "top-[-200px]"
               }`}
-              onMouseLeave={() => setDropConf(false)}
+    
             >
               <ul className="space-y-2">
                 <li>

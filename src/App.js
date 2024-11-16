@@ -43,49 +43,26 @@ function App() {
         />
       ) : (
         <>
-          {/* <Navbar/> */}
           <Routes>
             <Route path="/" element={<Navbar />}>
               <Route index element={<Home />} />
               <Route path="/organisingcommittee" element={<CommitteesPage />} />
               <Route path="/papers" element={<UpdatePage name={"Papers"} />} />
-              <Route
-                path="/program"
-                element={<UpdatePage name={"Program"} />}
-              />
-              <Route
-                path="/conferences"
-                element={<UpdatePage name={"Conferences"} />}
-              />
+              <Route path="/program" element={<UpdatePage name={"Program"} />} />
+              <Route path="/conferences" element={<UpdatePage name={"Conferences"} />} />
               <Route path="/contact" element={<ContactPage />} />
               <Route path="/callforpapers" element={<CallForPapersPage />} />
-              {/* <Route path="/tracks" element={<UpdatePage name={"Tracks"} />} /> */}
-              <Route
-                path="/technicalprogramcommittee"
-                element={<TpcCommitteePage />}
-              />
-              <Route
-                path="/cameraready"
-                element={<CameraReadyPage/>}
-              />
-            
+              <Route path="/technicalprogramcommittee" element={<TpcCommitteePage />} />
+              <Route path="/cameraready" element={<CameraReadyPage/>} />
+              <Route path="/registration" element={<RegistrationPage />} />
               <Route
                 path="/internationaladvisorycommittee"
                 element={
                   <UpdatePage name={"International advisory committee"} />
                 }
               />
-
-              <Route path="/registration" element={<RegistrationPage />} />
-              <Route
-                path="/accommodation"
-                element={<UpdatePage name={"Accommodation"} />}
-              />
-              <Route
-                path="/aboutbhubaneswar"
-                element={<AboutBhubaneswarPage />}
-              />
-              {/* <Route path="*" element={<Navigate to="/" />} /> */}
+              <Route path="/accommodation" element={<UpdatePage name={"Accommodation"} />} />
+              <Route path="/aboutbhubaneswar" element={<AboutBhubaneswarPage />} />
               <Route path="*" element={<Error404 />} />
             </Route>
           </Routes>
