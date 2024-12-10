@@ -5,6 +5,7 @@ import Bottom from "../components/shared/Bottom";
 import Aboutus from "../components/Home/Aboutus";
 import LogoSection from "../components/Home/LogoSection";
 import ConferenceBox from "../components/Home/ConferenceBox";
+import KeynoteSpeakersSection from "../components/Home/KeynoteSpeakers";
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Hero />
       <ConferenceBox />
       <LogoSection />
+      <KeynoteSpeakersSection/>
       <Aboutus />
       <Aim />
       <Contact />
