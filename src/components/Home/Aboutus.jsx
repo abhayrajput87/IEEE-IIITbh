@@ -7,33 +7,7 @@ function Aboutus() {
         Overview
       </h1>
       <div className="text-black mx-auto  items-center  ">
-        IIIT Bhubaneswar owes its origins to the initiative of the Government of
-        Odisha. It is a result of the desire of the Government to establish a
-        world-class institute of Information Technology in the state. The
-        institute has been registered as a society in November 2006. In January
-        2014, the institute is converted to a University by the Government of
-        Odisha. There is misconception that IIIT Bhubaneswar is an institute
-        promoted in PPP mode by the Government. The institute is fully owned by
-        the Government of Odisha. The Information Technology Department is the
-        controlling Department. The government provides funds for the
-        Infrastructure creation. However, the institute has to earn its Revenue
-        Expenditure. This is the model in all State Government promoted IIITs in
-        Bangalore, Hyderabad, and Delhi. The institute enjoys academic,
-        financial, and administrative autonomy by the powers invested through
-        the IIIT Bhubaneswar Act. IIIT aspires to be a national institute in
-        line with its Peer institutes. The Governance structure of the institute
-        is modeled after those of the IITs. The Governor of the state is the
-        Chancellor of the institute. The Board of Governors has members from the
-        Odisha Legislative Assembly, the Government of Odisha, Leaders from the
-        IT industry, and Eminent educationists. Currently, the Chairman of the
-        institute is the Chief Secretary of the Government of Odisha. The
-        Director is the Executive Head of the institute. The Director is
-        assisted by the Registrar, the Deans, the controller of examinations,
-        and the controller of finance in the day-to-day management of the
-        institute. The institute has its focus on quality and rigorous
-        education, quality resources, academic infrastructure, technology, and
-        innovation. These initiatives have helped IIIT-Bhubaneswar achieve
-        pre-eminence in India and beyond.
+      International Institute of Information Technology, Bhubaneswar was established by the Government of Odisha in 2006. It is designed to be a premier institute of Information Technology and related areas. The Institute has been converted into a unitary university by the Government of Odisha on 20th Jan 2014. The mission of IIIT is to be a knowledge seeking Institution of higher learning that will educate students in technology and other disciplines of scholarship. The Institute will work closely with the industry and other users of the technology to develop and deliver technological solutions to enhance their competitive position. The Institute is committed to the entire value chain of knowledge creation, diffusion and preservation to meet the challenges of the century. The Institute will borrow best practices in education delivery systems, research and consulting practices. Leveraging technology to bring about next generation of practices will be a key to this strategy. The Institute is dedicated to creating a community of students, faculty and scholars with passion for learning, creativity, innovation in all aspects of academic pursuit.
         <div className="font-semibold mt-4">
           ASPCC is a biennial research-oriented conference jointly conducted by
           the Department of Electronics & Telecommunication Engineering and
