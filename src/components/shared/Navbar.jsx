@@ -11,6 +11,7 @@ function Navbar() {
   let [dropdown, setDropdown] = useState(false);
   let [drop, setDrop] = useState(false);
   let [dropConf, setDropConf] = useState(false);
+  let [dropProg, setDropProg] = useState(false);
 
   const handleNav = () => {
     setNav(!nav);
@@ -116,9 +117,34 @@ function Navbar() {
               </ul>
             </div>
           </li>
-          <li className="py-4 px-6 hover:border-b-[2px] border-black ">
-            {" "}
-            <Link to="/program">Program</Link>{" "}
+           {/*            */}
+           <li className="relative py-4 px-6 hover:border-b-[2px] border-black "
+           onMouseEnter={() => setDropProg(true)}
+           onMouseLeave={() => setDropProg(false)}
+           >
+            <button
+              className=" duration-300 pb-3 hover:scale-110"
+             
+            >
+              Program &#709;
+            </button>
+            <div
+              className={`w-48 md:absolute rounded-lg bg-white -right-12 p-2 z-10 transition-all duration-1000 ${
+                dropProg ? "top-15" : "top-[-200px]"
+              }`}
+    
+            >
+              <ul className="space-y-2">
+                <li>
+                  <Link
+                    to="/programschedule"
+                    className="flex hover:scale-105 duration-300 "
+                  >
+                    Program Schedule
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </li>
 
           <li className="relative py-4 px-6 hover:border-b-[2px] border-black "

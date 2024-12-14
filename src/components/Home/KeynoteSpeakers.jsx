@@ -3,6 +3,7 @@ import rambilas from '../../assets/speakers/rambilas.jpg'
 import linga from '../../assets/speakers/linga.jpg'
 import sanjib from '../../assets/speakers/sanjib.jpg'
 import sudhir from '../../assets/speakers/sudhir.jpg'
+import pradipta from '../../assets/speakers/pradipta.jpg'
 
 
 
@@ -27,6 +28,11 @@ const keynoteSpeakers = [
     link: 'https://www.comsoc.org/sudhir-dixit',
     photo: sudhir,
   },
+  {
+    name: 'Dr. Pradipta Kumar Roy,ITR Chandipur',
+    link: '#',
+    photo: pradipta
+  }
 ];
 
 const KeynoteSpeakersSection = () => {
@@ -34,11 +40,11 @@ const KeynoteSpeakersSection = () => {
     <section className="bg-gray-100 py-10">
       <div className="container mx-auto text-center">
         <h2 className="text-4xl underline text-green-600 font-bold mb-8">Keynote Speakers</h2>
-        <div className="grid grid-cols-1 mx-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 mx-4 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
           {keynoteSpeakers.map((speaker, index) => (
             <div key={index} className="bg-white shadow-md rounded-lg p-6">
               <img
-                className="w-48 h-48 mx-auto rounded-full mb-4"
+                className="w-40 h-40 mx-auto rounded-full mb-4"
                 src={speaker.photo}
                 alt={speaker.name}
               />

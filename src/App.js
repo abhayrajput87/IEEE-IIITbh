@@ -13,6 +13,7 @@ import Navbar from "./components/shared/Navbar";
 import TpcCommitteePage from "./Pages/TpcCommitteePage";
 import ContactPage from "./Pages/ContactPage";
 import CameraReadyPage from "./Pages/AttendingConference/CameraReadyPage";
+import ProgramSchedulePage from "./Pages/Program/ProgramSchedulePage";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -63,6 +64,7 @@ function App() {
               />
               <Route path="/accommodation" element={<UpdatePage name={"Accommodation"} />} />
               <Route path="/aboutbhubaneswar" element={<AboutBhubaneswarPage />} />
+              <Route path="/programschedule" element={<ProgramSchedulePage/> } />
               <Route path="*" element={<Error404 />} />
             </Route>
           </Routes>
