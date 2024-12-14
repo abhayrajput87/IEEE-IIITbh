@@ -9,15 +9,15 @@ const DayThreeSchedule = () => {
       papersA: [
         { id: 101, title: "Chebyshev polynomial based Harmonic Estimation for Solar Photovoltaic System" },
         { id: 104, title: "Design of Battery and Ultra Capacitor for stability improvement of Microgrid in contrast to secondary Controller" },
-        { id: 102, title: "Solar-powered nine-level quadruple boost inverter with fuzzy logic control" },
-        { id: 151, title: "RGConNETA: Hybrid Hierarchical Image Classification Model for Extracting Deep Features with Improved Accuracy" },
-        { id: 138, title: "Enhancement of Performance of Elevated Current Density: Effects of Transverse Roughness and Layering" },
+        { id: 125, title: "Solar-powered nine-level quadruple boost inverter with fuzzy logic control" },
+        { id: 151, title: "RGConvNET: A Hybrid Hyperspectral Image Classification Model for Extracting Deep Features with Improved Accuracy" },
+        { id: 153, title: "Thermal Consequences of Elevated Current Density: Effects on Transformer Longevity and Reliability" },
         { id: 154, title: "Integration of VLSI with Traditional PID Controller for Temperature Control in Electronic Devices" },
       ],
       sessionTitleB: "Session 4B: Communication Systems and Beyond Wireless Communication",
       chairsB: "Prof. Tapas Kumar Patra, OUTR Bhubaneswar, Prof. Surya Prakash Singh, IIIT Bhubaneswar",
       papersB: [
-        { id: 15, title: "Super Resolution based Semi-adaptive Gamma correction for Dark Image Enhancement" },
+        { id: 15, title: "Fusion based Semi-adaptive Gamma correction for Dark Image Enhancement" },
         { id: 95, title: "Performance Analysis of Hybrid PSO-FR Link under Diverse Atmospheric Conditions" },
         { id: 109, title: "Study of MIMO-OFDM System for future Mobile Communication" },
         { id: 113, title: "An Approach for DFU Classification using VGG-19 and 2D-SSA" },
@@ -31,10 +31,10 @@ const DayThreeSchedule = () => {
       chairsA: "Prof. Subhasish Patra, IIIT Bhubaneswar, Prof. Sanjay Saxena, IIIT Bhubaneswar",
       papersA: [
         { id: 61, title: "Speech emotion recognition using light weight mobilenetv2" },
-        { id: 77, title: "DCB administration to reduce power system inefficiencies" },
+        { id: 77, title: "Dynamic DG administration to reduce power system inefficiencies" },
         { id: 107, title: "Monte Carlo Simulation of Underwater Optical Communication System with Optimized Coefficients" },
         { id: 112, title: "Optimal Voltage Regulation and Energy Efficiency in Photovoltaic Grid system" },
-        { id: 123, title: "Optimizing Economic Load Dispatch in Thermal Power Plants with Artificial Intelligence and Curve Fitting" },
+        { id: 152, title: "Optimizing Economic Load Dispatch in Thermal Power Plants with Additional Constraints Using Curve Fitting and Artificial Neural Networks" },
       ],
     },
   ];
@@ -50,7 +50,9 @@ const DayThreeSchedule = () => {
         {/* Event Timings */}
         <div className="mb-6">
           <div className="grid grid-cols-3 gap-4 text-sm">
-            <div className="col-span-1 border border-black p-2">09:00 – 10:00</div>
+          <div className="col-span-1 border border-black p-2">09:00 – 10:00</div>
+          <div className="col-span-2 border border-black p-2">Delegate Arrival, Registration</div>
+            <div className="col-span-1 border border-black p-2">10:00 – 11:00</div>
             <div className="col-span-2 border border-black p-2">
               Keynote Talk 5: <br />
               <span className="font-semibold">Dr. Sudhir Dixit</span>
@@ -58,7 +60,7 @@ const DayThreeSchedule = () => {
               Topic: Towards the Internet of Senses: Integrating Human mind, Body, and IoT in 6G!
             </div>
 
-            <div className="col-span-1 border border-black p-2">10:00 – 11:00</div>
+            <div className="col-span-1 border border-black p-2">11:00 – 11:15</div>
             <div className="col-span-2 border border-black p-2">Tea Break</div>
           </div>
         </div>
