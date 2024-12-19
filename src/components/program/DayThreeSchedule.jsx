@@ -9,8 +9,8 @@ const DayThreeSchedule = () => {
       papersA: [
         { id: 101, title: "Chebyshev polynomial based Harmonic Estimation for Solar Photovoltaic System" },
         { id: 104, title: "Design of Battery and Ultra Capacitor for stability improvement of Microgrid in contrast to secondary Controller" },
-        { id: 125, title: "Solar-powered nine-level quadruple boost inverter with fuzzy logic control" },
-        { id: 151, title: "RGConvNET: A Hybrid Hyperspectral Image Classification Model for Extracting Deep Features with Improved Accuracy" },
+        { id: 77, title: "Dynamic DG administration to reduce power system inefficiencies" },
+        { id: 152, title: "Optimizing Economic Load Dispatch in Thermal Power Plants with Additional Constraints Using Curve Fitting and Artificial Neural Networks" },
         { id: 153, title: "Thermal Consequences of Elevated Current Density: Effects on Transformer Longevity and Reliability" },
         { id: 154, title: "Integration of VLSI with Traditional PID Controller for Temperature Control in Electronic Devices" },
       ],
@@ -31,10 +31,13 @@ const DayThreeSchedule = () => {
       chairsA: "Prof. Subhasish Patra, IIIT Bhubaneswar, Prof. Sanjay Saxena, IIIT Bhubaneswar",
       papersA: [
         { id: 61, title: "Speech emotion recognition using light weight mobilenetv2" },
-        { id: 77, title: "Dynamic DG administration to reduce power system inefficiencies" },
+        
+        { id: 66, title: "Hybrid Laplace-Gaussian Differential Privacy to Secure Data Aggregation in Edge-IoT Systems" },
+        { id: 71, title: "Advancements in Smart Grids: Harnessing AI, IoT, and 5G Integration for Sustainable Energy Management" },
+        { id: 86, title: "Advancing Color Perception: An IoT-driven Pedagogical System for Visually Impaired Children" },
         { id: 107, title: "Monte Carlo Simulation of Underwater Optical Communication System with Optimized Coefficients" },
-        { id: 112, title: "Optimal Voltage Regulation and Energy Efficiency in Photovoltaic Grid system" },
-        { id: 152, title: "Optimizing Economic Load Dispatch in Thermal Power Plants with Additional Constraints Using Curve Fitting and Artificial Neural Networks" },
+        { id: 125, title: "Solar-powered nine-level quadruple boost inverter with fuzzy logic control" },
+       
       ],
     },
   ];
@@ -54,10 +57,10 @@ const DayThreeSchedule = () => {
           <div className="col-span-2 border border-black p-2">Delegate Arrival, Registration</div>
             <div className="col-span-1 border border-black p-2">10:00 – 11:00</div>
             <div className="col-span-2 border border-black p-2">
-              Keynote Talk 5: <br />
-              <span className="font-semibold">Dr. Sudhir Dixit</span>
-              <br />
-              Topic: Towards the Internet of Senses: Integrating Human mind, Body, and IoT in 6G!
+            Keynote Talk 4:
+Speaker: Prof. Linga Reddy Cenkeramaddi, Professor, University of Agder,
+Norway
+Topic: mmWave Radar-based Sensing and Applications
             </div>
 
             <div className="col-span-1 border border-black p-2">11:00 – 11:15</div>
@@ -128,7 +131,12 @@ const DayThreeSchedule = () => {
           <div className="col-span-2 border border-black p-2">Lunch Break</div>
 
           <div className="col-span-1 border border-black p-2">14:30 – 15:30</div>
-          <div className="col-span-2 border border-black p-2">
+          <div className="col-span-1 border border-black p-2 ">Keynote Talk 5 (CG-02)
+Speaker: Dr. Sudhir Dixit
+Topic: Towards the Internet of
+Senses: Integrating Human mind,
+Body, and IoT in 6G!</div>
+          <div className="col-span-1 border border-black p-2">
             Student Poster Presentation Competition and Membership Drive Program
           </div>
 

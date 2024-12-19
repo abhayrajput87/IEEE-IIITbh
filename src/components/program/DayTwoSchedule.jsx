@@ -16,7 +16,6 @@ const DayTwoSchedule = () => {
       sessionTitleB: "Session 2B: Communication Systems and Beyond Wireless Communication",
       chairsB: "Prof. B. Acharya, NIT Raipur, Prof. Sanjeev Kumar Meena, IIIT Bhubaneswar",
       papersB: [
-        { id: 60, title: "Performance Analysis of UAVAssisted FSO Links in Presence of Hovering Fluctuations" },
         { id: 63, title: "Eye Disease Classification using CNN and Vision Transformers" },
         { id: 74, title: "Performance Analysis of Advanced Modulation Schemes for Optical Networks Using Machine Learning" },
         { id: 81, title: "Optimizing Sensor Node Placement in Wireless Sensor Networks Using Hybrid PSO-GWO Technique" },
@@ -32,7 +31,6 @@ const DayTwoSchedule = () => {
         chairsA: "Prof. Chinna Panigrahi, KIIT, Prof. Pradeep N. Misra, IIIT Bhubaneswar",
         papersA: [
           { id: 50, title: "Investigation of Water Cycle Algorithm in Renewable based Micro Grid" },
-          { id: 71, title: "Advancements in Smart Grids: Harnessing AI, IoT, and 5G Integration for Sustainable Energy Management" },
           { id: 79, title: "Investigation Analysis of a Bidirectional DC-DC Converter for EV Charging" },
           { id: 82, title: "Different Predictive Control Methods for DTC Induction Motor Drive: A Concise Review" },
           { id: 110, title: "Ridge Regression Approach with Randomized Search CV Technique in Wind Power Forecasting" },
@@ -43,10 +41,10 @@ const DayTwoSchedule = () => {
         chairsB: "Prof. Satyajit Nanda, NMHIT Jaipur, Prof. Suresh Kumar, IIT Bhubaneswar",
         papersB:[
           { id: 38, title: "Implementation of optical lock through visible light communication using AES" },
-          { id: 66, title: "Hybrid Laplace-Gaussian Differential Privacy to Secure Data Aggregation in Edge-IoT Systems" },
-          { id: 86, title: "Advancing Color Perception: An IoT-driven Pedagogical System for Visually Impaired Children" },
+          { id: 60, title: "Performance Analysis of UAVAssisted FSO Links in Presence of Hovering Fluctuations" },
           { id: 115, title: "Embedded System for Efficient Brain Stroke Prediction using CSML on PYNQ-Z2" },
-          { id: 116, title: "Cluster Head Selection in IoT Networks Using Salp Swarm Optimization" }
+          { id: 116, title: "Cluster Head Selection in IoT Networks Using Salp Swarm Optimization" },
+          { id: 151, title: "RGConvNET: A Hybrid Hyperspectral Image Classification Model for Extracting Deep Features with Improved Accuracy" },
         ]
         ,
       },
@@ -147,17 +145,6 @@ Topic: Large Language Model Optimization
 </div>
           <div className="col-span-2 border border-black p-2">
           Lunch Break
-          </div>
-          <div className="col-span-1 border border-black p-2">14:30 – 15:30</div>
-          <div className="col-span-2 border border-black p-2">
-          Keynote Talk 4:
-Speaker: Prof. Linga Reddy Cenkeramaddi, Professor, University of Agder,
-Norway
-Topic: mmWave Radar-based Sensing and Applications
-          </div>
-          <div className="col-span-1 border border-black p-2">15:30 – 15:45</div>
-          <div className="col-span-2 border border-black p-2">
-          Tea Break
           </div>
         </div>
         {/* Parallel Sessions */}

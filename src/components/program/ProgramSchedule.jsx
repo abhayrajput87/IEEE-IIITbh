@@ -11,6 +11,7 @@ const ProgramSchedule = () => {
         { id: 85, title: "An optimized Grid computing based Feature selection approaches from Brain Image dataset using Pretrained models" },
         { id: 103, title: "Autoencoder Integrated Feedforward Neural Network based Intrusion Detection System" },
         { id: 127, title: "Dual Random Phase Encoding Encryption Using Fractional Fourier Transform" },
+        { id: 112, title: "Optimal Voltage Regulation and Energy Efficiency in Photovoltaic Grid system" },
       ],
     },
     {
@@ -31,7 +32,7 @@ const ProgramSchedule = () => {
     <div>
     <h1 className="my-8 font-extrabold underline-offset-1 text-center mx-auto text-black text-4xl" > ASPCC 2024 Program Schedule</h1>
     <div className="px-28 flex flex-col text-blue-800 font-semibold" >
-    <a href="https://drive.google.com/file/d/1Y9esKXloFooVxv5ZW2YYvl9D0NBT5JAF/view?usp=sharing"  className="underline">Download Schedule Pdf</a>
+    <a href="https://drive.google.com/file/d/1ofBdsV-uSGjUn8DIfpXmcSDy7gTcjfw0/view?usp=sharing"  className="underline">Download Schedule Pdf</a>
     <a href="https://docs.google.com/presentation/d/1SQkKeTvuooSjkMfnlVRjcV9a5TdLX-l6/edit?usp=sharing&ouid=110828040866843815675&rtpof=true&sd=true" className="underline" >Download Presentation Format</a>
     </div>
     </div>
