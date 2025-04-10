@@ -18,8 +18,8 @@ function Hero() {
             {" "}
             Registration and camera-ready submission deadline:20th November 2024.
           </ImpDates>
-          <div className="flex items-center">
-            <div className="hidden md:flex  h-[200px] bg-yellow-500  rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">
+          {/* <div className="flex items-center bg-blue-700 "> */}
+            {/* <div className="hidden md:flex  h-[200px] bg-yellow-500  rounded-xl justify-center m-4 md:m-8 p-4 md:flex-col">
               <p className="text-2xl font-bold ">Conference Record #62191</p>
               <a
                 className="text-blue-500 font-bold underline"
@@ -27,16 +27,16 @@ function Hero() {
               >
                 Click on the Link
               </a>
-            </div>
-            <div className="flex flex-col   text-center">
-              <h1 className="md:text-6xl text-4xl   mb-4 font-bold ">
+            </div> */}
+            <div className="flex flex-col items-center justify-center h-[80%] text-center">
+              <h1 className="md:text-6xl text-4xl mb-4 font-bold ">
                 ASPCC 2024
               </h1>
               <p className="md:text-3xl text-xl md:px-16 font-bold  mb-2">
                 1st International Conference on Advances in Signal Processing,
                 Power, <br /> Communication and Computing
               </p>
-              <p className="text-2xl">Organised by</p>
+              {/* <p className="text-2xl">Organised by</p>
               <p className="text-2xl">
                 Department of Electronics & Telecommunication Engineering{" "}
               </p>
@@ -57,8 +57,8 @@ function Hero() {
               <p className="text-xl text-green-500  animate-bounce font-bold mb-2">
                 Date of conference: 19<sup class="superscript">th</sup> to 21
                 <sup class="superscript">st</sup> December 2024
-              </p>
-            </div>
+              </p> */}
+            {/* </div> */}
           </div>
         </div>
       </div>
